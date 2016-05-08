@@ -1,0 +1,143 @@
+html, body {
+  background: #FFFFFF;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+body {
+  margin: 0 20px;
+}
+
+h3 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  clear: both;
+  margin-bottom: 25px;
+}
+
+ul {
+  padding: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.content {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 50px auto;
+}
+
+.intro {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.intro img {
+  width: 150px;
+}
+
+.about {
+  width: 100%;
+  text-align: center;
+}
+
+.picture img {
+  width: 125px;
+  margin: 0 auto;
+}
+
+.section {
+  margin-bottom: 25px;
+  display: flex;
+}
+
+.section .right {
+  padding-left: 20px;
+}
+
+.logo, .nologo {
+  width: 75px;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.logo img {
+  max-width: 100%;
+}
+
+.section .title {
+  font-weight: 700;
+  line-height: 27px;
+}
+
+.section .date {
+  color: #87888D;
+  font-size: 80%;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.profiles {
+  text-align: center;
+}
+
+.social a {
+  margin: auto 5px;
+}
+
+.skills {
+  list-style-type: none;
+}
+
+.skills li {
+  display: inline-block;
+  color: #2c3e50;
+  background: #ecf0f1;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  padding: 2px 4px;
+}
+
+.description {
+  font-size: 12px;
+}
+
+.screenshots img {
+  max-width: 22%;
+  margin-right: 2%;    
+}
+
+.thumb {
+  float: left;
+}
+
+.fa-github {
+  color: #000000;
+}
+
+.fa-twitter {
+  color: #1da1f2;
+}
+
+.fa-linkedin {
+  color: #0077b5;
+}
+
+.fa-envelope {
+  color: #000000;
+}
