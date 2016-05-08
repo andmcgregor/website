@@ -1,0 +1,114 @@
+html, body {
+  background: #171819;
+  color: #BDBEC3;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  clear: both;
+  margin-top: 25px;
+}
+
+ul {
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-padding-start: 0;
+}
+
+a {
+  color: #648F00;
+  background: #121314;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.content {
+  margin-top: 50px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.intro {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.intro img {
+  width: 125px;
+}
+
+.about {
+  width: 100%;
+  text-align: center;
+}
+
+.picture img {
+  width: 125px;
+  margin: 0 auto;
+}
+
+.professional {
+  height: 75px;
+  clear: both;
+  padding: 10px 0;
+}
+
+.professional .description {
+  width: 425px;
+  float: left;
+}
+
+.professional .logo {
+  float: left;
+  width: 75px;
+  height: 75px;
+}
+
+.nologo {
+  float: left;
+  width: 75px;
+  height: 75px;
+}
+
+.professional .title {
+  font-weight: 700;
+  line-height: 27px;
+  padding: 5px 20px;
+}
+
+.professional .date {
+  color: #87888D;
+  font-size: 80%;
+  padding: 10px 20px;
+}
+
+.profiles {
+  text-align: center;
+}
+
+.social a {
+  margin: auto 5px;
+}
+
+.skills {
+  list-style-type: none;
+  margin: 5px 10px 5px 10px;
+}
+
+.skills li {
+  display: inline-block;
+  color: #87888D;
+  background: #121314;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 10px;
+  font-size: 12px;
+}
+
