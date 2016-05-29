@@ -30,9 +30,9 @@ a {
 }
 
 .content {
-  margin-top: 50px;
   width: 500px;
   margin: 0 auto;
+  padding-bottom: 25px;
 }
 
 .intro {
@@ -54,18 +54,18 @@ a {
   margin: 0 auto;
 }
 
-.professional {
-  height: 75px;
+.section {
+  min-height: 75px;
   clear: both;
   padding: 10px 0;
 }
 
-.professional .description {
+.section .right {
   width: 425px;
   float: left;
 }
 
-.professional .logo {
+.section .logo {
   float: left;
   width: 75px;
   height: 75px;
@@ -77,13 +77,13 @@ a {
   height: 75px;
 }
 
-.professional .title {
+.section .title {
   font-weight: 700;
   line-height: 27px;
   padding: 5px 20px;
 }
 
-.professional .date {
+.section .date {
   color: #87888D;
   font-size: 80%;
   padding: 10px 20px;
@@ -98,8 +98,9 @@ a {
 }
 
 .skills {
+  margin: 5px 10px 5px 15px;
   list-style-type: none;
-  margin: 5px 10px 5px 10px;
+  white-space: nowrap;
 }
 
 .skills li {
@@ -108,7 +109,22 @@ a {
   background: #121314;
   font-weight: 700;
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 2px;
   font-size: 12px;
+  padding: 0 1px;
+}
+
+.description {
+  font-size: 12px;
+  padding-left: 20px;
+}
+
+.screenshots {
+  height: 75px;
+  margin-left: 20px;
+}
+
+.thumb {
+  float: left;
 }
 
