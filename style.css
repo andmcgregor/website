@@ -17,6 +17,7 @@ h3 {
 }
 
 ul {
+  padding: 0;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
   -webkit-padding-start: 0;
