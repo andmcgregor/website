@@ -1,12 +1,15 @@
 html, body {
   background: #FFFFFF;
   color: #000000;
-  height: 100%;
   margin: 0;
   padding: 0;
   overflow-x: hidden;
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+}
+
+body {
+  margin: 0 20px;
 }
 
 h3 {
@@ -37,8 +40,8 @@ a {
 
 .intro {
   text-align: center;
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .intro img {
@@ -60,6 +63,10 @@ a {
   display: flex;
 }
 
+.section .right {
+  padding-left: 20px;
+}
+
 .section .logo {
   width: 75px;
   height: 75px;
@@ -67,18 +74,19 @@ a {
 
 .nologo {
   width: 75px;
+  flex-shrink: 0;
 }
 
 .section .title {
   font-weight: 700;
   line-height: 27px;
-  padding: 5px 20px;
 }
 
 .section .date {
   color: #87888D;
   font-size: 80%;
-  padding: 10px 20px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .profiles {
@@ -90,35 +98,28 @@ a {
 }
 
 .skills {
-  margin: 5px 10px 5px 15px;
   list-style-type: none;
-  white-space: nowrap;
 }
 
 .skills li {
   display: inline-block;
   color: #2c3e50;
   background: #ecf0f1;
+  font-size: 12px;
   font-weight: 700;
   text-decoration: none;
-  margin-left: 2px;
-  font-size: 12px;
-  padding: 0 1px;
+  margin-right: 2px;
+  margin-bottom: 5px;
+  padding: 2px 4px;
 }
 
 .description {
   font-size: 12px;
-  padding-left: 20px;
-}
-
-.screenshots {
-  height: 75px;
-  margin-left: 20px;
 }
 
 .screenshots img {
   max-width: 22%;
-  margin-right: 10px;    
+  margin-right: 2%;    
 }
 
 .thumb {
