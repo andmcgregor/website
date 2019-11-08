@@ -67,14 +67,14 @@ a {
   padding-left: 20px;
 }
 
-.section .logo {
+.logo, .nologo {
   width: 75px;
-  height: 75px;
+  height: auto;
+  flex-shrink: 0;
 }
 
-.nologo {
-  width: 75px;
-  flex-shrink: 0;
+.logo img {
+  max-width: 100%;
 }
 
 .section .title {
